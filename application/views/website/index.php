@@ -9,17 +9,17 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous" />
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet" />
-    <link rel="shortcut icon" type="image/png" href="<?php echo base_url(); ?>/assets/website/images/fav.png" />
+    <link rel="shortcut icon" type="image/png" href="<?php echo base_url(); ?>assets/website/images/fav.png" />
     <!--build:css assets/css/styles.min.css-->
-    <link rel="stylesheet" href="<?php echo base_url(); ?>/assets/website/css/bootstrap.css" />
-    <link rel="stylesheet" href="<?php echo base_url(); ?>/assets/website/css/slick.min.css" />
-    <link rel="stylesheet" href="<?php echo base_url(); ?>/assets/website/css/bootstrap-drawer.min.css" />
-    <link rel="stylesheet" href="<?php echo base_url(); ?>/assets/website/icons/style.css" />
-    <link rel="stylesheet" href="<?php echo base_url(); ?>/assets/website/css/style.css" />
-    <link rel="stylesheet" href="<?php echo base_url(); ?>/assets/website/css/animate-4.1.1.min.css" />
+    <link rel="stylesheet" href="<?php echo base_url(); ?>assets/website/css/bootstrap.css" />
+    <link rel="stylesheet" href="<?php echo base_url(); ?>assets/website/css/slick.min.css" />
+    <link rel="stylesheet" href="<?php echo base_url(); ?>assets/website/css/bootstrap-drawer.min.css" />
+    <link rel="stylesheet" href="<?php echo base_url(); ?>assets/website/icons/style.css" />
+    <link rel="stylesheet" href="<?php echo base_url(); ?>assets/website/css/style.css" />
+    <link rel="stylesheet" href="<?php echo base_url(); ?>assets/website/css/animate-4.1.1.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
     <link rel="stylesheet" type="text/css" href="https://unpkg.com/@phosphor-icons/web@2.0.3/src/bold/style.css" />
-    <link rel="icon" href="<?php echo base_url(); ?>/assets/website/img/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="<?php echo base_url(); ?>assets/website/img/favicon.ico" type="image/x-icon">
 
     <!--endbuild-->
 </head>
@@ -29,7 +29,7 @@
 
         <div class="header-menu style-one bg-white">
             <div class="container flex-between h-80">
-                <a class="menu-left-block" href="<?php echo base_url(); ?>"><img class="menu-logo display-block" src="<?php echo base_url(); ?>/assets/website/img/header-logo.png" alt="logo" /></a>
+                <a class="menu-left-block" href="<?php echo base_url(); ?>"><img class="menu-logo display-block" src="<?php echo base_url(); ?>assets/website/img/header-logo.png" alt="logo" /></a>
                 <div class="menu-center-block h-100">
                     <ul class="menu-nav flex-item-center h-100">
                         <li class="nav-item h-100 flex-center home"><a class="nav-link" href="<?php echo base_url(); ?>">Home</a></li>
@@ -71,7 +71,7 @@
             <div class="prev-arrow flex-center"><i class="ph-bold ph-caret-left text-white"></i></div>
             <div class="slider-main">
                 <div class="slider-item slider-second">
-                    <div class="bg-img"> <img class="w-100 h-100" src="<?php echo base_url(); ?>/assets/website/img/1.jpg" alt="" /></div>
+                    <div class="bg-img"> <img class="w-100 h-100" src="<?php echo base_url(); ?>assets/website/img/1.jpg" alt="" /></div>
                     <div class="container">
                         <div class="text-content flex-columns-between">
                             <div class="heading2">Your credit score is your<br><span class="text-blue w-100">financial
@@ -84,7 +84,7 @@
                     </div>
                 </div>
                 <div class="slider-item slider-third">
-                    <div class="bg-img"> <img class="w-100 h-100" src="<?php echo base_url(); ?>/assets/website/img/2.jpg" alt="" />
+                    <div class="bg-img"> <img class="w-100 h-100" src="<?php echo base_url(); ?>assets/website/img/2.jpg" alt="" />
                     </div>
                     <div class="container">
                         <div class="text-content flex-columns-between">
@@ -97,7 +97,7 @@
                     </div>
                 </div>
                 <div class="slider-item slider-first">
-                    <div class="bg-img"> <img class="w-100 h-100 animate__animated animate__fadeIn animate__delay-0-2s" src="<?php echo base_url(); ?>/assets/website/img/3.jpg" alt="" /></div>
+                    <div class="bg-img"> <img class="w-100 h-100 animate__animated animate__fadeIn animate__delay-0-2s" src="<?php echo base_url(); ?>assets/website/img/3.jpg" alt="" /></div>
                     <div class="container">
                         <div class="text-content flex-columns-between">
                             <div class="heading2 color animate__animated animate__fadeInUp animate__delay-0-2s">Unlock
@@ -136,7 +136,7 @@
                     </div>
                     <div class="col-11 col-xl-7">
                         <div class="right pl-40">
-                            <div class="bg-img"> <img class="w-100" src="<?php echo base_url(); ?>/assets/website/img/About-us.jpg" alt="" />
+                            <div class="bg-img"> <img class="w-100" src="<?php echo base_url(); ?>assets/website/img/About-us.jpg" alt="" />
                             </div>
                             <div class="feature-item pt-16 pb-16 pl-24 pr-24 bora-20 bg-white flex-item-center gap-16 box-shadow display-inline-flex">
                                 <i class="icon-list fs-28 bg-orange p-16 bora-20"> </i>
@@ -178,7 +178,7 @@
                 <div class="row d-flex justify-content-around">
                     <div class="col-12 col-xl-3 col-sm-6">
                         <div class="benefit-item">
-                            <div class="bg-img"> <img class="w-100 h-100 display-block" src="<?php echo base_url(); ?>/assets/website/img/credit-score.jpg" alt="" /></div>
+                            <div class="bg-img"> <img class="w-100 h-100 display-block" src="<?php echo base_url(); ?>assets/website/img/credit-score.jpg" alt="" /></div>
                             <div class="text flex-columns-between gap-12">
                                 <div class="heading5"><a class="text-white" href="#demo">Discover Your Credit Score for
                                         FREE</a></div>
@@ -191,7 +191,7 @@
                     </div>
                     <div class="col-12 col-xl-3 col-sm-6">
                         <div class="benefit-item">
-                            <div class="bg-img"> <img class="w-100 h-100 display-block" src="<?php echo base_url(); ?>/assets/website/img/credit-card.jpg" alt="" /></div>
+                            <div class="bg-img"> <img class="w-100 h-100 display-block" src="<?php echo base_url(); ?>assets/website/img/credit-card.jpg" alt="" /></div>
                             <div class="text flex-columns-between gap-12">
                                 <div class="heading5"><a class="text-white" href="#demo">Explore Credit Card Options</a>
                                 </div>
@@ -205,7 +205,7 @@
                     </div>
                     <div class="col-12 col-xl-3 col-sm-6">
                         <div class="benefit-item">
-                            <div class="bg-img"> <img class="w-100 h-100 display-block" src="<?php echo base_url(); ?>/assets/website/img/personal-loan.jpg" alt="" /></div>
+                            <div class="bg-img"> <img class="w-100 h-100 display-block" src="<?php echo base_url(); ?>assets/website/img/personal-loan.jpg" alt="" /></div>
                             <div class="text flex-columns-between gap-12">
                                 <div class="heading5"><a class="text-white" href="#demo">Your Path to Personal Loans</a>
                                 </div>
@@ -343,7 +343,7 @@
         <div class="faqs-block style-one mt-100 mb-12" id="faqs">
             <div class="row row-gap-32">
                 <div class="col-12 col-xl-6">
-                    <div class="bg-img"> <img src="<?php echo base_url(); ?>/assets/website/img/customerservice.jpg" alt="" /></div>
+                    <div class="bg-img"> <img src="<?php echo base_url(); ?>assets/website/img/customerservice.jpg" alt="" /></div>
                     <div class="desc bg-blue flex-center">
                         <div class="content gap-30"><i class="icon-hand-team icon-white"></i>
                             <div class="heading4 text-white">Our goal is to deliver a world of convenience and value to our valued customers.</div>
@@ -405,7 +405,7 @@
                 <div class="container">
                     <div class="row flex-between pb-40">
                         <div class="col-3">
-                            <div class="footer-company-infor flex-columns-between gap-20"><img class="footer-logo" src="<?php echo base_url(); ?>/assets/website/img/footer-logo.png" alt="Logo" />
+                            <div class="footer-company-infor flex-columns-between gap-20"><img class="footer-logo" src="<?php echo base_url(); ?>assets/website/img/footer-logo.png" alt="Logo" />
                                 <div class="text caption1 text-white">Your financial journey simplified. We're here to assist you in achieving your goals. Reach out to our team for expert guidance and personalized solutions.</div>
                             </div>
                         </div>
@@ -468,16 +468,16 @@
         </div>
     </div>
     <!--build:js assets/js/main.min.js-->
-    <script src="<?php echo base_url(); ?>/assets/website/js/jquery-3.7.0.js"></script>
-    <script src="<?php echo base_url(); ?>/assets/website/js/jquery-migrate-3.4.1.js"></script>
-    <script src="<?php echo base_url(); ?>/assets/website/js/slick.min.js"></script>
-    <script src="<?php echo base_url(); ?>/assets/website/js/waypoints.min.js"></script>
-    <script src="<?php echo base_url(); ?>/assets/website/js/countUp.min.js"></script>
-    <script src="<?php echo base_url(); ?>/assets/website/js/phosphor-icon.js"></script>
-    <script src="<?php echo base_url(); ?>/assets/website/js/scrollreveal-4.0.0.min.js"></script>
-    <script src="<?php echo base_url(); ?>/assets/website/js/bootstrap-drawer.min.js"></script>
-    <script src="<?php echo base_url(); ?>/assets/website/js/drawer.min.js"></script>
-    <script src="<?php echo base_url(); ?>/assets/website/js/main.min.js"></script>
+    <script src="<?php echo base_url(); ?>assets/website/js/jquery-3.7.0.js"></script>
+    <script src="<?php echo base_url(); ?>assets/website/js/jquery-migrate-3.4.1.js"></script>
+    <script src="<?php echo base_url(); ?>assets/website/js/slick.min.js"></script>
+    <script src="<?php echo base_url(); ?>assets/website/js/waypoints.min.js"></script>
+    <script src="<?php echo base_url(); ?>assets/website/js/countUp.min.js"></script>
+    <script src="<?php echo base_url(); ?>assets/website/js/phosphor-icon.js"></script>
+    <script src="<?php echo base_url(); ?>assets/website/js/scrollreveal-4.0.0.min.js"></script>
+    <script src="<?php echo base_url(); ?>assets/website/js/bootstrap-drawer.min.js"></script>
+    <script src="<?php echo base_url(); ?>assets/website/js/drawer.min.js"></script>
+    <script src="<?php echo base_url(); ?>assets/website/js/main.min.js"></script>
     <!--endbuild-->
 </body>
 
