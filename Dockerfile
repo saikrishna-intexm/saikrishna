@@ -33,20 +33,17 @@ RUN apt install -y \
     php8.1-zip 
 RUN apt install nginx -y
 RUN apt install -y net-tools 
+RUN apt-get install -y python3
 RUN echo "\ndaemon off;" >> /etc/nginx/nginx.conf
 
 # Copy Nginx configuration
 COPY ./nginx/default.conf /etc/nginx/sites-available/default
-
-# Copy application code
-COPY . /var/www/html
-
 # Set working directory
 WORKDIR /var/www/html
-
 # Expose port 80
 EXPOSE 80
-
+# Copy application code
+COPY . /var/www/html
 # Start Nginx and PHP-FPM
 CMD service php8.1-fpm start && nginx
 
